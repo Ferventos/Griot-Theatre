@@ -1,0 +1,44 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: black;
+    color:sienna}
+nav a {
+    text-decoration: none;
+    color: sienna;}
+nav ul{
+    display: flex;
+    list-style-type: none;}
+nav li {
+    padding: 0 30px;}
+#cover_image{
+    height: 100%;
+    width: 100%;}
+#cover_image_text{
+    position: absolute;
+    font-weight: bold;}
+#date{
+    background-color: sienna;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;}
+.feature_item{
+    display: flex;
+    justify-content: start;
+    color: cyan;
+    border-bottom: 1px solid grey;
+    padding: 20px;}
+.button{
+    height: 50px;
+    border-radius: 2px;}
+.container-fluid{
+    display: flex;
+    background-color: black;
+    color: sienna;
+    padding: 20px;}
